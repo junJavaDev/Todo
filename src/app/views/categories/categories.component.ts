@@ -8,13 +8,13 @@ import {Category} from "../../model/Category";
   styleUrl: './categories.component.css'
 })
 export class CategoriesComponent implements OnInit {
-  categories: Category[];
+  categories: Category[] | undefined;
 
   constructor(private dataHandler: DataHandlerService) {
-    this.categories = this.dataHandler.getCategories();
   }
 
   // Метод вызывается автоматически после инициализации компонента
   ngOnInit() {
+    this.categories = this.dataHandler.getCategories();
   }
 }
