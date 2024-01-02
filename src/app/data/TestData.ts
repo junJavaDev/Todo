@@ -188,33 +188,6 @@ export class TestData {
       completed: false,
       category: TestData.categories[4],
       date: new Date('2023-12-17')
-    },
-
-    {
-      id: 2,
-      title: 'Передать отчеты начальнику управления',
-      priority: TestData.priorities[0],
-      completed: false,
-      category: TestData.categories[0],
-      date: new Date('2023-12-16')
-    },
-
-    {
-      id: 2,
-      title: 'Передать отчеты начальнику управления',
-      priority: TestData.priorities[0],
-      completed: false,
-      category: TestData.categories[0],
-      date: new Date('2023-12-16')
-    },
-
-    {
-      id: 2,
-      title: 'Передать отчеты начальнику управления',
-      priority: TestData.priorities[0],
-      completed: false,
-      category: TestData.categories[0],
-      date: new Date('2023-12-16')
-    },
+    }
   ];
 }
